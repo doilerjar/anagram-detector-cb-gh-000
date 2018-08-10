@@ -11,7 +11,7 @@ class Anagram
   def self.match(word_list)
     result = []
     word_list.each do | word |
-      if @anagram_word.sort == word.sort
+      if @anagram_word.split("").sort == word.split("").sort
         result << word
       end
     end 
