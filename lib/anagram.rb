@@ -9,7 +9,9 @@ class Anagram
   end 
   
   def self.match(word_list)
-    
+    word_list.each do | word |
+      
+    end 
   end 
   
 end 
